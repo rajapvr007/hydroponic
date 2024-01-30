@@ -1,0 +1,84 @@
+My own code of Sidebar and Shop
+
+==> My Own Sidebar Code...
+
+// import React from "react";
+// import { Link } from "react-router-dom";
+
+// const Sidebar = () => {
+//   return (
+//     <>
+//       <aside className="sidebar w-47 m-5 p-2 min-w-fit border-2 drop-shadow-lg rounded-xl bg-gray-400">
+//         <div className="categories">
+//           <h3 className="font-bold">Categories</h3>
+//           <ul className="p-2">
+//             <li>
+//               <Link className={{ color: "red" }}>Newest Products</Link>
+//             </li>
+//             <li>
+//               <Link>Category 1</Link>
+//             </li>
+//             <li>
+//               <Link>Category 2</Link>
+//             </li>
+//           </ul>
+//         </div>
+//         <div className="sorting ">
+//           <h3 className="font-bold">Sort By</h3>
+//           <select className="p-2 rounded">
+//             <option value="price">Price</option>
+//             <option value="name">Name</option>
+//           </select>
+//         </div>
+//       </aside>
+//     </>
+//   );
+// };
+
+// export default Sidebar;
+
+
+
+
+
+
+
+
+
+
+
+==> My Shop JSX Code...
+
+// import React from "react";
+// import Sidebar from "./sidebar";
+// import Footer from "./footer";
+// import new_products from "./new_products.json";
+// import ProductCard from "./productcard";
+
+// const Shop = () => {
+//   return (
+//     <>
+//       <h1 className="m-2 text-3xl text-center font-bold">Shop with Us</h1>
+//       <div className="shop-page flex m-2">
+//         <Sidebar />
+//         <div className="product-cards">
+//           {new_products.map((item, i) => {
+//             return (
+//               <ProductCard
+//                 key={i}
+//                 image={item.image}
+//                 name={item.name}
+//                 price={item.price}
+//                 description={item.desc}
+//               />
+//             );
+//           })}
+//         </div>
+//       </div>
+//     </>
+//   );
+// };
+
+// export default Shop;
+
+
